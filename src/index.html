@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="bg-transparent absolute top-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#" class="font-bold text-3xl block py-6 text-primary"
+              >ARA</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="burger"
+              name="burger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="burger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="burger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="burger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-x-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-x-none lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#"
+                    class="font-normal text-black py-2 mx-8 flex group-hover:text-primary"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="font-normal text-black py-2 mx-8 flex group-hover:text-primary"
+                    >About Me</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="font-normal text-black py-2 mx-8 flex group-hover:text-primary"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="font-normal text-black py-2 mx-8 flex group-hover:text-primary"
+                    >Skills</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="font-normal text-black py-2 mx-8 flex group-hover:text-primary"
+                    >Blog</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="font-normal text-black py-2 mx-8 flex group-hover:text-primary"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section -->
+    <section class="pt-36" id="home">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 pt-36 lg:w-1/2">
+            <h1 class="text-base font-semibold text-red-800 md:text-xl">
+              Hello, It's Me
+              <span class="block font-bold text-black text-4xl mt-1 lg:text-5xl"
+                >Anjeli Rahmatul Aulia</span
+              >
+            </h1>
+            <h2 class="font-medium text-gray-400 text-lg mb-3 lg:text-2xl">
+              Student of Polytechnic IDN | Programmer Major
+            </h2>
+            <p class="font-medium mb-10 leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae, aspernatur.
+            </p>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-red-500 py-3 px-8 rounded-full hover:bg-red-300 transition duration-200 ease-in-out"
+              >Call Me</a
+            >
+          </div>
+          <div class="w-full self-end px-14 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-0 lg:right-0">
+              <img
+                src="/src/img/__-removebg-preview.png"
+                alt="Photo Portfolio"
+                class="max-w-full mx-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section -->
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold text-red-500 text-lg mb-3">ABOUT ME</h4>
+            <h1 class="font-bold text-2xl mb-5 max-w-md lg:text-xl">
+              Introduce Myself
+            </h1>
+            <p class="font-medium text-base max-w-xl lg:text-lg">
+              Hi, I'm Anjeli.I was born on 14 March 2005, in Tuban East Java. I
+              am the eldest of three children in my family. adn I have a high
+              interest in progamming
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h2 class="font-semibold text-2xl mb-4 lg:text-3xl lg:pt-10">
+              Follow Me
+            </h2>
+            <p class="font-medium text-base mb-5 lg:text-lg">
+              Hi, to increase relations and strenghth friendship, let's be
+              friends and you can follow or we can connect with each other on
+              social media
+            </p>
+            <div class="flex items-center">
+              <!-- Instagram -->
+              <a
+                href="#"
+                target="_blank"
+                class="w-9 h-9 mx-2 rounded-full flex justify-center items-center border border-slate-600 hover:bg-red-400 hover:text-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  />
+                </svg>
+              </a>
+              <!-- Twitter -->
+              <a
+                href="#"
+                target="_blank"
+                class="w-9 h-9 mx-2 rounded-full flex justify-center items-center border border-slate-600 hover:bg-red-400 hover:text-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                >
+                  <title>Twitter</title>
+                  <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                  />
+                </svg>
+              </a>
+              <!-- Facebook -->
+              <a
+                href="#"
+                target="_blank"
+                class="w-9 h-9 mx-2 rounded-full flex justify-center items-center border border-slate-600 hover:bg-red-400 hover:text-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                >
+                <title>Facebook</title>
+                  <path
+                    d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section -->
+     <section class="pt-36 pb-16 bg-orange-100" id="portfolio">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-10">
+                    <h4 class="font-semibold text-lg text-pink-800 mb-2">Portfolio</h4>
+                    <h2 class="font-bold text-3xl sm:text-4xl lg:text-5xl mb-4">My Creation</h2>
+                    <p class="font-medium text-gray-400">This is my Work for the Past Few Years</p>
+                </div>
+            </div>
+            <div class="w-full px-5 flex flex-wrap justify-center xl:w-11/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/4">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="/src/img/port1.jpeg" alt="Portfolio 1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl mt-6 mb-3 text-center">Portfolio One</h3>
+                </div>
+                <div class="mb-12 p-4 md:w-1/4">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="/src/img/port1.jpeg" alt="Portfolio 1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl mt-6 mb-3 text-center">Portfolio One</h3>
+                </div>
+                <div class="mb-12 p-4 md:w-1/4">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="/src/img/port1.jpeg" alt="Portfolio 1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl mt-6 mb-3 text-center">Portfolio One</h3>
+                </div>
+                <div class="mb-12 p-4 md:w-1/4">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="/src/img/port1.jpeg" alt="Portfolio 1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl mt-6 mb-3 text-center">Portfolio One</h3>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- Portfolio Section End -->
+
+     <!-- Skills Section -->
+      <section id="skills" class="pt-36 pb-32">
+        <div class="container">
+          <div class="w-full px-4">
+            <div class="mx-auto text-center mb-16">
+              <h4 class="font-semibold text-lg mb-2">Learning Path</h4>
+              <h2 class="font-bold text-rose-800 text-3xl sm:text-4xl lg:text-5xl mb-4">Skills</h2>
+              <p class="font-medium text-secondary text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, eveniet.</p>
+            </div>
+          </div>
+
+          <div class="w-full px-2">
+            <div class="flex flex-wrap items-center justify-center">
+              <a href="#" class="max-w-[120px] mx-2 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                <img src="/src/img/skill4.png" alt="">
+              </a>
+              <a href="#" class="max-w-[120px] mx-2 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                <img src="/src/img/skill2.png" alt="">
+              </a>
+              <a href="#" class="max-w-[120px] mx-2 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                <img src="/src/img/skill3.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skills Section End -->
+
+      <!-- Blog Section -->
+       <section id="blog" class="pt-36 pb-32 bg-orange-100">
+        <div class="container">
+          <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+              <h4 class="font-semibold text-lg text-secondary mb-2">BLOG</h4>
+              <h2 class="font-bold text-3xl sm:text-4xl lg:text-5xl mb-4">This is My Blog</h2>
+              <p class="font-medium md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis explicabo aspernatur veniam, ab nemo.</p>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap">
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+              <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img src="/src/img/port1.jpeg" alt="blog1" class="w-full">
+                <div class="py-8 px-6">
+                  <h3 class="mb-3 font-semibold hover:text-secondary">Website 1</h3>
+                  <p class="font-medium text-secondary mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A optio dolorem iste suscipit magnam earum dolores cum expedita asperiores rem.</p>
+                  <a href="#" class="font-medium text-sm text-white bg-rose-500 py-2 px-4 rounded-lg hover:opacity-80">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+              <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img src="/src/img/port1.jpeg" alt="blog1" class="w-full">
+                <div class="py-8 px-6">
+                  <h3 class="mb-3 font-semibold hover:text-secondary">Website 1</h3>
+                  <p class="font-medium text-secondary mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A optio dolorem iste suscipit magnam earum dolores cum expedita asperiores rem.</p>
+                  <a href="#" class="font-medium text-sm text-white bg-rose-500 py-2 px-4 rounded-lg hover:opacity-80">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+              <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img src="/src/img/port1.jpeg" alt="blog1" class="w-full">
+                <div class="py-8 px-6">
+                  <h3 class="mb-3 font-semibold hover:text-secondary">Website 1</h3>
+                  <p class="font-medium text-secondary mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A optio dolorem iste suscipit magnam earum dolores cum expedita asperiores rem.</p>
+                  <a href="#" class="font-medium text-sm text-white bg-rose-500 py-2 px-4 rounded-lg hover:opacity-80">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+       <!--Blog Section End  -->
+
+       <!-- Contact Section -->
+        <section id="contact" class="pt-36 pb-32">
+          <div class="container">
+            <div class="w-full px-4">
+              <div class="max-w-xl mx-auto text-center mb-16">
+                <h4 class="font-semibold text-lg text-secondary mb-2">Contact</h4>
+                <h2 class="font-bold text-3xl sm:text-4xl lg:text-5xl mb-4">You Can Call Me!</h2>
+                <p class="font-medium md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis explicabo aspernatur veniam, ab nemo.</p>
+              </div>
+            </div>
+            <form action="#">
+             <div class="w-full lg:w-2/3 lg:m-auto">
+              <div class="w-full px-4 mb-8">
+                <label for="name" class="text-base font-bold text-secondary">Name</label>
+                <input type="text" id="name" class="w-full bg-slate-200 text-slate-800 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+              </div>
+              <div class="w-full px-4 mb-8">
+                <label for="email" class="text-base font-bold text-secondary">Email</label>
+                <input type="text" id="email" class="w-full bg-slate-200 text-slate-800 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+              </div>
+              <div class="w-full px-4 mb-8">
+                <label for="Message" class="text-base font-bold text-secondary">Message</label>
+                <textarea type="text" id="Message" class="w-full bg-slate-200 text-slate-800 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"></textarea>
+              </div>
+              <div class="w-full px-4">
+                <button class="text-base font-semibold text-white bg-rose-500 py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Send Message</button>
+              </div>
+             </div>
+            </form>
+          </div>
+        </section>
+        <!-- Contact Section End -->
+
+        <!-- Footer Section -->
+         <footer class="bg-orange-100 pt-24 pb-12">
+          <div class="container">
+            <div class="flex flex-wrap">
+              <div class="w-full px-4 mb-12 text-slate-500 font-medium md:w-1/3">
+                <h2 class="font-bold text-4xl text-slate-800 mb-5">ARA</h2>
+                <h3 class="font-bold text-2xl mb-2 text-slate-800">Call Me</h3>
+                <p>anjelirahmatulaulia@gmail.com</p>
+                <p>Tuban,East Java</p>
+              </div>
+              <div class="w-full px-4 mb-12 md:w-1/3">
+                <h3 class="font-bold text-2xl mb-2 text-slate-800">Article</h3>
+                <ul class="text-slate-500">
+                  <li>
+                    <a href="#" class="inline-block text-base hover:text-secondary mb-3">Article One</a>
+                  </li>
+                  <li>
+                    <a href="#" class="inline-block text-base hover:text-secondary mb-3">Article Two</a>
+                  </li>
+                  <li>
+                    <a href="#" class="inline-block text-base hover:text-secondary mb-3">Article Three</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full px-4 mb-12 md:w-1/3">
+                <h3 class="font-bold text-2xl mb-2 text-slate-800">Link</h3>
+                <ul class="text-slate-500">
+                  <li>
+                    <a href="#" class="inline-block text-base hover:text-secondary mb-3">Home</a>
+                  </li>
+                  <li>
+                    <a href="#" class="inline-block text-base hover:text-secondary mb-3">About</a>
+                  </li>
+                  <li>
+                    <a href="#" class="inline-block text-base hover:text-secondary mb-3">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#" class="inline-block text-base hover:text-secondary mb-3">Skills</a>
+                  </li>
+                  <li>
+                    <a href="#" class="inline-block text-base hover:text-secondary mb-3">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#" class="inline-block text-base hover:text-secondary mb-3">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="w-full pt-10 border-t">
+              <div class="flex items-center justify-center">
+                <a
+                href="#"
+                target="_blank"
+                class="w-9 h-9 mx-2 rounded-full flex justify-center items-center border border-slate-600 hover:bg-red-400 hover:text-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  />
+                </svg>
+              </a>
+              <!-- Twitter -->
+              <a
+                href="#"
+                target="_blank"
+                class="w-9 h-9 mx-2 rounded-full flex justify-center items-center border border-slate-600 hover:bg-red-400 hover:text-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                >
+                  <title>Twitter</title>
+                  <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                  />
+                </svg>
+              </a>
+              <!-- Facebook -->
+              <a
+                href="#"
+                target="_blank"
+                class="w-9 h-9 mx-2 rounded-full flex justify-center items-center border border-slate-600 hover:bg-red-400 hover:text-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                >
+                <title>Facebook</title>
+                  <path
+                    d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
+                  />
+                </svg>
+              </a>
+              </div>
+              <div id="copyright">
+                <div class="wrapper text-center pt-5">
+                  &copy; 2024. <b>Anjeliraa</b>All Right Reserved
+                </div>
+              </div>
+            </div>
+          </div>
+         </footer>
+         <!-- Footer End Section -->
+          <script src="/src/sript.js"></script>
+  </body>
+</html>
